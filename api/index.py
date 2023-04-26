@@ -16,5 +16,4 @@ def about():
 
 @app.route("/art")
 def art_api():
-    art = text2art("art")
-    return art
+    return tprint("art")
