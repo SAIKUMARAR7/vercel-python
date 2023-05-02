@@ -19,3 +19,7 @@ def about():
 @app.route("/art")
 def art_api():
     return tprint("art")
+
+@app.route("/test")
+def test():
+    return "Hello, All"
