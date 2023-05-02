@@ -1,5 +1,7 @@
 from flask import Flask
 from art import *
+from art import tprint
+
 
 app = Flask(__name__)
 
